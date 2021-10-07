@@ -1,0 +1,44 @@
+a {
+  color: #4e5155;
+  text-decoration: none;
+}
+
+img {
+  height: 25vh;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+}
+
+#projects ul {
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+#projects li {
+  height: 28vh;
+  padding: 10px;
+  margin: 20px auto;
+  transition-duration: 1s;
+}
+
+#projects li:hover {
+  background: #DDD;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+#projects li img {
+  float: left;
+  margin-right: 15px;
+}
+
+#projects li p {
+  text-align: justify;
+  color: #4e5155;
+  font-family: serif;
+  font-size: 1.2rem;
+  width: 65vw;
+}
