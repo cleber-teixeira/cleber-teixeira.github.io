@@ -2,8 +2,9 @@ aside {
   margin-top: 30px;
 }
 
-.img-github {
+.icon {
   height: 5vh;
+  margin: 0 10px;
 }
 
 .img-profile {

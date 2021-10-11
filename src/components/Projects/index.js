@@ -13,6 +13,16 @@ class Projects extends React.Component {
     return (
       <section id="projects">
         <ul>
+          <a href="https://cleber-teixeira.github.io/projetos/bingo-asvsb/" target="_blank" rel="noopener noreferrer">
+            <li>
+              <img src={ project_07 } alt="Imagem do Projeto 6" />
+              <h3>Bingo Beneficente</h3>
+              <p>
+                Projeto realizado de forma voluntária à <b>Associação Saber Viver Sempre Bem</b>, uma associação sem fins lucrativos que ajudam pessoas carentes na Zona Leste de São Paulo.<br />
+                Elaborei este projeto usando os conhecimentos de Fundamentos da Trybe: JavaScript, HTML e CSS.
+              </p>
+            </li>
+          </a>
           <a href="https://cleber-teixeira.github.io/projetos/lessons-learned/" target="_blank" rel="noopener noreferrer">
             <li>
               <img src={ project_01 } alt="Imagem do Projeto 1" />
@@ -70,16 +80,6 @@ class Projects extends React.Component {
               <p>
                 Projeto realizado no bloco 09 da Trybe: JavaScript e Testes Assíncronos.<br />
                 Módulo: Fundamentos do Desenvolvimento Web
-              </p>
-            </li>
-          </a>
-          <a href="https://cleber-teixeira.github.io/projetos/bingo-asvsb/" target="_blank" rel="noopener noreferrer">
-            <li>
-              <img src={ project_07 } alt="Imagem do Projeto 6" />
-              <h3>Bingo Beneficente</h3>
-              <p>
-                Projeto realizado de forma voluntária à <b>Associação Saber Viver Sempre Bem</b>, uma associação sem fins lucrativos que ajudam pessoas carentes na Zona Leste de São Paulo.<br />
-                Elaborei este projeto usando os conhecimentos de Fundamentos da Trybe: JavaScript, HTML e CSS.
               </p>
             </li>
           </a>

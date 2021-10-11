@@ -1,6 +1,7 @@
 import React from 'react';
 import profileImg from '../images/cleber.jpg';
 import githubIcon from '../images/github1.png';
+import linkedinIcon from '../images/linkedin.png';
 
 import './PersonalInfo.css';
 
@@ -16,10 +17,13 @@ class PersonalInfo extends React.Component {
 
         <p>
           <a href="https://github.com/cleber-teixeira" target="_blank" rel="noopener noreferrer">
-            <img src={ githubIcon } alt="GitHub" className="img-github" />
+            <img src={ githubIcon } alt="Ícone do GitHub" className="icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/cleberlopesteixeira/" target="_blank" rel="noopener noreferrer">
+            <img src={ linkedinIcon } alt="Ícone do Linkedin" className="icon" />
           </a>
         </p>
-        
+
         <p className="sobre">
           Sou apaixonado por <span><em>tecnologia</em></span>, música, natureza e <span>esportes</span> (principalmente <span><em>artes-marciais</em></span>). Atualmente sou aluno do curso de <span>Desenvolvimento Web Full Stack da <a href="https://www.betrybe.com/" target="_blank" >Trybe</a> - <em>Turma 09</em>.</span> Estou me preparando para ser um profissional exemplar e <em>fazer a diferença na vida das pessoas!</em>
         </p>
