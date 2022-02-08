@@ -25,7 +25,7 @@ class PersonalInfo extends React.Component {
         </p>
 
         <p className="sobre">
-          Sou apaixonado por <span><em>tecnologia</em></span>, música, natureza e <span>esportes</span> (principalmente <span><em>artes-marciais</em></span>). Atualmente sou aluno do curso de <span>Desenvolvimento Web Full Stack da <a href="https://www.betrybe.com/" target="_blank" >Trybe</a> - <em>Turma 09</em>.</span> Estou me preparando para ser um profissional exemplar e <em>fazer a diferença na vida das pessoas!</em>
+          Sou apaixonado por tecnologia, música, natureza e esportes (principalmente artes-marciais). Me formei como <span>Desenvolvedor Web Full Stack pela <a href="https://www.betrybe.com/" target="_blank" >Trybe</a> - <em>Turma 09</em>.</span> Atualmente estou aberto à oportunidades como desenvolvedor júnior, onde pretendo continuar evoluindo e me preparando para ser um profissional exemplar e <em>fazer a diferença na vida das pessoas!</em>
         </p>
       </aside>
     );
