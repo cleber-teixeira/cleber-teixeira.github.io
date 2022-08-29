@@ -78,7 +78,7 @@ li {
 }
 
 .lista-tarefas {
-  max-height: 380px;
+  max-height: 70vw;
   overflow-y: scroll;
 }
 
