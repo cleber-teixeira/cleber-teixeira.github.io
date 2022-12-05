@@ -101,6 +101,7 @@ footer {
   color: whitesmoke;
   font-size: 1.7vw;
   padding: 4px 0;
+  position: absolute;
   text-align: center;
   width: 100%;
 }
