@@ -96,11 +96,12 @@ div.msg > .bingo {
 }
 
 footer {
-  background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5),rgba(0, 0, 0, 0.5),rgba(128, 128, 128, 0.7));
+  background-image: linear-gradient(to right, rgba(128, 128, 128, 0.3),rgba(0, 0, 0, 0.5),rgba(128, 128, 128, 0.3));
   bottom: 0;
   color: whitesmoke;
-  font-size: 1.7vw;
-  padding: 4px 0;
+  font-size: 12px;
+  height: 20px;
+  padding: 4px 0 0;
   text-align: center;
   width: 100%;
 }
@@ -123,13 +124,13 @@ footer:hover {
 
 .ganhador {
   /* Chrome, Safari, Opera */
-  -webkit-animation: PULSE 2s infinite; 
-  
+  -webkit-animation: PULSE 2s infinite;
+
   /* Internet Explorer */
   -ms-animation: PULSE 2s infinite;
-  
+
   /* Standard Syntax */
-  animation: PULSE 1.25s infinite; 
+  animation: PULSE 1.25s infinite;
 }
 
 /* Chrome, Safari, Opera */
@@ -394,4 +395,3 @@ ol.list {
   margin: 10px 10px 0 20px;
   padding-left: 0;
 }
-

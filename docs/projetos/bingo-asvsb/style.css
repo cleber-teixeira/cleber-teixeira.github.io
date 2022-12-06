@@ -144,13 +144,13 @@ footer:hover {
 
 .ganhador {
   /* Chrome, Safari, Opera */
-  -webkit-animation: PULSE 2s infinite; 
+  -webkit-animation: PULSE 2s infinite;
 
   /* Internet Explorer */
   -ms-animation: PULSE 2s infinite;
 
   /* Standard Syntax */
-  animation: PULSE 1.25s infinite; 
+  animation: PULSE 1.25s infinite;
 }
 
 /* Chrome, Safari, Opera */
