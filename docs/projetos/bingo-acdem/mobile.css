@@ -96,12 +96,13 @@ div.msg > .bingo {
 }
 
 footer {
-  background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5),rgba(0, 0, 0, 0.5),rgba(128, 128, 128, 0.7));
+  background-image: linear-gradient(to right, rgba(128, 128, 128, 0.3),rgba(0, 0, 0, 0.5),rgba(128, 128, 128, 0.3));
   bottom: 0;
   color: whitesmoke;
-  font-size: 1.7vw;
-  padding: 4px 0;
-  position: absolute;
+  font-size: 12px;
+  height: 20px;
+  padding: 4px 0 0;
+  position: relative;
   text-align: center;
   width: 100%;
 }
