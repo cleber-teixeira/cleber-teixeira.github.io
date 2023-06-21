@@ -48,9 +48,9 @@ class PersonalInfo extends React.Component {
 			</p>
 			<a
 				href='../images/curriculo_cleber-teixeira.pdf'
-				 Content-Type='.application/zip'
+				 // Content-Type='.application/zip'
 				download
-				className='curriculo'
+			//	className='curriculo'
 			>
 				Curriculo
 			</a>
