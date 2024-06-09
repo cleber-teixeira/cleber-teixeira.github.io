@@ -29,7 +29,6 @@ body {
   font-family: sans-serif;
   font-size: 1em;
   margin: 0;
-  padding: 0 2vw;
   position: relative;
   width: 100vw;
 }
@@ -38,27 +37,35 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 60%;
+  justify-content: start;
+  width: 60vw;
 }
 
 .balls {
-  width: 6vw;
+  width: 5vw;
 }
 
 .btn {
   color: darkslategray;
-  font-size: 14px;
+  font-size: 1vw;
   font-weight: 600;
-  /* height: 2vw; */
-  padding: 0.2vw;
+  padding: 0.25vw 0.2vw;
   letter-spacing: 1px;
-  margin: 0 1px;
 }
 
 .btn:hover {
   background-color: gray;
   color: white;
   transition: 0.8s;
+}
+
+.btns {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
 }
 
 .cartela {
@@ -68,6 +75,8 @@ body {
   border-spacing: 15px 4px;
   margin: 0 auto;
   padding: 15px 5px;
+  height: 100%;
+  width: 100%;
 }
 
 .sorteio div {
@@ -85,7 +94,7 @@ body {
   padding: 10px;
   text-align: center;
   width: 22%;
-overflow: auto;
+  overflow: auto;
   }
   
   .title-list {
@@ -106,8 +115,9 @@ overflow: auto;
 .list li {
   border: 1px solid gray;
   border-radius: 5px;
-  font-weight: 600;
-  width: 60%;
+  font-weight: 550;
+  font-size: 1.2vw;
+  width: 90%;
   padding: 1px;
   margin: 2px auto;
 }
@@ -121,7 +131,8 @@ ol.list {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 40%;
+  position: relative;
+  width: 40vw;
 }
 
 .controls {
@@ -135,15 +146,15 @@ ol.list {
 
 footer {
   background-image: linear-gradient(to right, rgba(128, 128, 128, 0.3),rgba(0, 0, 0, 0.5),rgba(128, 128, 128, 0.3));
-  height: 15px;
+  height: 100px;
   width: 100vw;
-  padding: 2px;
 }
   
 footer h3 {
   color: whitesmoke;
   font-size: 10px;
   text-align: center;
+  margin: 1vh 0;
   font-weight: 400;
 }
 
@@ -160,8 +171,8 @@ footer:hover {
 .ganhador {
   font-size: 28px;
   font-weight: 600;
-  min-width: 260px;
-  width: 100%;
+  min-width: 16.5vw;
+  width: 50%;
 }
 
 .ganhador {
@@ -200,14 +211,15 @@ header {
   justify-content: space-between;
   position: absolute;
   top: 0;
-  left: 5vw;
-  width: 52vw;
+  left: 0;
+  width: 60vw;
 }
 
 header h1 {
   color: rgb(65, 122, 124);
   font-family: sans-serif;
-  margin-bottom: 1vw;
+  margin: 1vw 0;
+  font-size: 2.3vw;
 }
 
 .i {
@@ -215,24 +227,38 @@ header h1 {
   color: black;
 }
 
-.infos h1 {
+/* .infos h1 {
   color: cadetblue;
   font-family: 'Great Vibes';
   font-size: 2.3em;
   font-weight: lighter;
   margin-top: 10px;
+} */
+
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
 .infos-table {
   border-spacing: 10px 5px;
   font-size: 16px;
+  height: 100%;
   text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.infos-table th {
+  font-size: 1.25vw;
 }
 
 .infos-table td {
   border: 1px solid black;
   border-radius: 5px;
-  height: 30px;
+  height: 2vw;
 }
 
 .infos-table .null {
@@ -241,7 +267,6 @@ header h1 {
 
 .infos-table .part {
   text-align: right;
-  width: 50px;
 }
 
 .input-bingo {
@@ -250,10 +275,9 @@ header h1 {
   font-size: 16px;
   letter-spacing: 1px;
   height: 25px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin: 1vw 0;
   text-align: center;
-  width: 70%;
+  width: 60%;
 }
 
 div.letra {
@@ -292,7 +316,7 @@ div.sorteado {
   justify-content: space-between;
   flex-direction: row;
   text-align: center;
-  width: 100%;
+  width: 47vw;
 }
 
 .logo2 {
@@ -313,13 +337,18 @@ main {
   justify-content: space-between;
   margin-top: 0;
   padding: 2vw;
-  height: calc(100vh - 15px);
-  width: 100%;
+  height: calc(100vh - 4vh);
+  width: 100vw;
 }
 
 .menu {
   text-align: center;
-  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
 }
 
 .n {
@@ -351,11 +380,11 @@ main {
 
 .premios {
   font-weight: 600;
-  width: 100%;
+  width: 50%;
 }
 
 .rodada {
-  width: 50%;
+  width: 20%;
 }
 
 .roleta {
@@ -391,5 +420,5 @@ main {
 } */
 
 .valor {
-  width: 50%;
+  width: 20%;
 }
