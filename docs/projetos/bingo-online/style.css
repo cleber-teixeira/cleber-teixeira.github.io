@@ -29,6 +29,7 @@ body {
   height: calc(100vh - 15px);
   justify-content: space-between;
   margin: 0;
+  padding: 0;
   position: relative;
   width: 100vw;
 }
@@ -37,7 +38,9 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  height: 60vh;
+  justify-content: center;
+  position: relative;
   width: 60vw;
 }
 
@@ -79,20 +82,14 @@ body {
   width: 100%;
 }
 
-.sorteio div {
-  display: flex;
-  flex-direction: column;
-  width: 15vw;
-}
-
 .cartelas-sorteadas {
   background-color: rgba(95, 158, 160, 0.1);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  height: 16vw;
+  height: 15vw;
   margin: 0;
-  max-height: 16vw;
+  max-height: 13.5vw;
   overflow: auto;
   padding: 0.1vw;
   text-align: center;
@@ -135,7 +132,10 @@ ol.list {
   align-items: center;
   display: flex;
   flex-direction: column;
-  position: relative;
+  height: calc(100vh - 10vh);
+  position: absolute;
+  right: 2vw;
+  top: 2vw;
   width: 40vw;
 }
 
@@ -149,19 +149,22 @@ ol.list {
 }
 
 footer {
+  align-items: center;
+  bottom: 0;
+  color: whitesmoke;
+  display: flex;
+  font-size: 0.8vw;
+  font-weight: 400;
+  height: 3vh;
+  justify-content: center;
+  position: fixed;
+  text-align: center;
+  width: 100vw;
+
   background-image: linear-gradient(to right,
       rgba(128, 128, 128, 0.3),
       rgba(0, 0, 0, 0.5),
       rgba(128, 128, 128, 0.3));
-  width: 100vw;
-}
-
-footer h3 {
-  color: whitesmoke;
-  font-size: 0.95vw;
-  font-weight: 400;
-  margin: 0.6vh 0;
-  text-align: center;
 }
 
 footer:hover {
@@ -284,9 +287,9 @@ header h1 {
   border: 0.5px solid gray;
   border-radius: 5px;
   font-size: 16px;
-  height: 25px;
+  height: 4vh;
   letter-spacing: 1px;
-  margin: 1vw 0;
+  margin: 1vh 0;
   text-align: center;
   width: 60%;
 }
@@ -299,12 +302,12 @@ div.letra {
   color: grey;
   display: flex;
   font-size: 18vw;
-  height: 18vw;
+  height: 15vw;
   justify-content: center;
   min-height: 150px;
   min-width: 150px;
   text-align: center;
-  width: 18vw;
+  width: 15vw;
 }
 
 div.sorteado {
@@ -315,11 +318,11 @@ div.sorteado {
   color: gray;
   display: flex;
   font-size: 13vw;
-  height: 18vw;
+  height: 15vw;
   justify-content: center;
   min-height: 150px;
   min-width: 150px;
-  width: 18vw;
+  width: 15vw;
 }
 
 .logo {
@@ -344,12 +347,13 @@ div.sorteado {
 }
 
 main {
+  align-items: end;
   display: flex;
   flex-direction: row;
   height: calc(100vh - 4vh);
-  justify-content: space-between;
+  justify-content: start;
   margin-top: 0;
-  padding: 2vw;
+  padding: 0vw;
   width: 100vw;
 }
 
@@ -358,6 +362,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 2vh;
   position: relative;
   text-align: center;
   width: 100%;
@@ -408,18 +413,21 @@ main {
   align-items: center;
   display: flex;
   flex-direction: row;
-  height: 300px;
+  height: 40vh;
   justify-content: space-evenly;
-  margin-top: 180px;
   width: 100%;
+}
+
+.sorteio div {
+  width: 15vw;
 }
 
 .sorteando {
   color: cadetblue;
   display: flex;
-  font-size: 20px;
+  font-size: 1vw;
   position: absolute;
-  top: 31vh;
+  top: 0vh;
 }
 
 .valor {
